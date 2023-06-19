@@ -20,38 +20,45 @@
     --fonte-android: 'Android', cursive;
 }
 
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
 
-body {
+body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
 
-header {
+header{
     background-color: var(--cor4);
 }
 
-header > h1 {
+header > h1{
     color: white;
     font-family: var(--fonte-destaque);
 }
 
-header > p {
+header > p{
     color: white;
 }
 
-nav {
+nav{
     background-color: var(--cor5);
 }
 
-main {
+main{
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
     background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
+    border-radius: 0px 0px 10px 10px;
 }
 
-main h1 {
+main h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
 }
@@ -61,7 +68,17 @@ main h2{
     font-family: var(--fonte-android);
 }
 
-footer {
+main img{
+    width: 100%;
+}
+
+main img#pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+footer{
     background-color: var(--cor5);
     color: white;
 }
